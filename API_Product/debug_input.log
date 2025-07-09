@@ -1,0 +1,79 @@
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: {
+    "id_order": 9,
+    "metodebayar": 1,
+    "bukti_bayar": {
+        "name": "bukti_transfer.jpg",
+        "type": "image/jpeg",
+        "size": 1024, 
+        "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ... (potongan base64)"
+    }
+}
+Input received: {
+    "id_order": 9
+}
+Input received: {
+    "id_order": 9
+}
+Input received: {
+    "id_order": 9
+}
+Input received: {
+    "id_order": 9
+}
+Input received: {
+    "id_pelanggan": 9
+}
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: {
+    "id_order": 9
+}
+Input received: 
+Input received: 
+Input received: 
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: 
+Input received: id_pelanggan=29
+Input received: id_pelanggan=29
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: {
+    "id_pelanggan": 29
+}
+Input received: id_pelanggan=29
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: 
+Input received: id_pelanggan=39
+Input received: id_pelanggan=39
+Input received: id_pelanggan=39
+Input received: {"id_pelanggan" : 39}
+Input received: id_pelanggan=39
+Input received: id_pelanggan=39
+Input received: id_pelanggan=39

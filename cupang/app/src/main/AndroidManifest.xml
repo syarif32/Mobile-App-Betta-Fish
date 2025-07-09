@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cupang"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.OrderHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.PaymentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.PaymentVerificationListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddEditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".history.HistoryDetail"
+            android:exported="false" />
+        <activity
+            android:name=".history.History"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".chechkout.Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".productkategori.Lokal"
+            android:exported="false" />
+        <activity
+            android:name=".productkategori.Impor"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Maindetail"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".firstpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainRegister"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

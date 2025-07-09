@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laut">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="48dp"
+        android:paddingBottom="24dp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+
+                android:layout_marginBottom="20dp"
+
+                android:gravity="center">
+
+
+
+                <!-- Profile Photo -->
+
+                <ImageView
+
+                    android:id="@+id/profileImage"
+
+                    android:layout_width="120dp"
+
+                    android:layout_height="120dp"
+
+                    android:src="@drawable/user"
+
+                    android:contentDescription="Profile Photo"
+
+                    android:scaleType="centerCrop"
+
+                    android:elevation="4dp"
+
+                    android:layout_centerInParent="true"/>
+
+                <Space
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="10dp"/>
+
+                <!-- Change Photo Button -->
+
+                <ImageButton
+
+                    android:id="@+id/btnChangePhoto"
+
+                    android:layout_width="40dp"
+
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/exchange"
+
+                    android:elevation="6dp"
+
+                    android:contentDescription="Change Photo"
+
+                    android:layout_alignBottom="@id/profileImage"
+
+                    android:layout_alignEnd="@id/profileImage"
+
+                    android:layout_marginEnd="8dp"
+
+                    android:layout_marginBottom="8dp"
+
+                    />
+
+            </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil Saya"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelola informasi akun Anda dengan mudah."
+            android:textSize="16sp"
+            android:textColor="#E0E0E0"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="24dp"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card_backgoround" android:elevation="10dp"
+            android:padding="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="-48dp"
+            android:layout_marginBottom="24dp"
+            android:clipToPadding="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Akun"
+                android:textSize="22sp"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="#2196F3"
+                app:hintTextColor="#2196F3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Anda"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:enabled="false"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    tools:text="user@example.com"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="#2196F3"
+                app:hintTextColor="#2196F3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:drawableStart="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="#2196F3"
+                app:hintTextColor="#2196F3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat Lengkap"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:drawableStart="@drawable/baseline_location_pin_24"
+                    android:drawablePadding="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/cityEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Kota"
+                        android:textColor="#2C3E50"
+                        android:textSize="16sp"
+                        android:drawableStart="@drawable/baseline_location_city_24"
+                        android:drawablePadding="12dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/provinceEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Provinsi"
+                        android:textColor="#2C3E50"
+                        android:textSize="16sp"
+                        android:drawableStart="@drawable/baseline_map_24"
+                        android:drawablePadding="12dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="#2196F3"
+                app:hintTextColor="#2196F3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor Telepon"
+                    android:inputType="phone"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:drawableStart="@drawable/baseline_local_phone_24"
+                    android:drawablePadding="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="#2196F3"
+                app:hintTextColor="#2196F3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/postalCodeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kode Pos"
+                    android:inputType="number"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:drawableStart="@drawable/baseline_local_post_office_24"
+                    android:drawablePadding="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="SIMPAN PERUBAHAN"
+                android:textColor="@color/white"
+                android:backgroundTint="#2196F3"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="GANTI PASSWORD"
+                android:textColor="@color/white"
+                android:backgroundTint="#FF9800"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="LOGOUT"
+                android:textColor="#ffff"
+                android:backgroundTint="#f44336"
+                app:strokeColor="#F44336"
+                app:strokeWidth="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:elevation="0dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="HUBUNGI KAMI"
+                android:textColor="#2196F3"
+                android:backgroundTint="@color/white"
+                app:strokeColor="#2196F3"
+                app:strokeWidth="2dp"
+                android:textSize="18sp"
+                app:cornerRadius="12dp"
+                android:elevation="0dp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laut"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobi adalah Seni , Temukan Ikan Cupang Impian Anda "
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:shadowColor="#30000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_marginBottom="30dp"/>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="40dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/circle"
+            android:background="@drawable/circular_bg" />
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lg"
+            android:contentDescription="Logo Aplikasi Ikan Cupang"
+            android:scaleType="fitCenter"
+            app:tint="#02116A" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Betta Fish" android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#30000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kami menyediakan berbagai iakan cupang yang menawan
+
+"
+        android:textSize="18sp"
+        android:textColor="#E0E0E0"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

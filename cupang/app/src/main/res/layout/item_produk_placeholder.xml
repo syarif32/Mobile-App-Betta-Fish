@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:gravity="center_horizontal">
+
+        <!-- Gambar Produk -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:background="@drawable/image_border"
+            android:contentDescription="Gambar Produk" />
+
+        <!-- Nama Produk -->
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Harga -->
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp 0"
+            android:textSize="13sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Stok -->
+        <TextView
+            android:id="@+id/productStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stok: 0"
+            android:textSize="13sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/productStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tersedia"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <!-- Jumlah Dilihat -->
+        <TextView
+            android:id="@+id/textViewProductViews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dilihat: 0"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

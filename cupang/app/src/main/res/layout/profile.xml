@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Page"
+            android:textSize="30sp"
+            android:textColor="#34495E"
+            android:textStyle="bold"
+            android:fontFamily="@font/jakartasans"
+            android:layout_marginBottom="28dp"
+            android:textAlignment="center"/>
+
+        <!-- Wrapper input dengan background putih dan shadow lembut -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:clipToPadding="false"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Light">
+
+            <!-- Email -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                app:boxBackgroundMode="filled"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeColor="@color/red_main"
+                app:boxBackgroundColor="#F0F1F5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Your Email"
+                    android:fontFamily="@font/jakartasans"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:enabled="false"
+                    android:minHeight="65dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="0dp"
+                    android:paddingVertical="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Nama -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                app:boxBackgroundMode="filled"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeColor="@color/red_main"
+                app:boxBackgroundColor="#F0F1F5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Kamu"
+                    android:fontFamily="@font/jakartasans"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:minHeight="65dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="0dp"
+                    android:paddingVertical="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Alamat -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                app:boxBackgroundMode="filled"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeColor="@color/red_main"
+                app:boxBackgroundColor="#F0F1F5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat"
+                    android:fontFamily="@font/jakartasans"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:minHeight="65dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="0dp"
+                    android:paddingVertical="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Kota dan Provinsi side by side -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="13dp">
+
+                <!-- Kota -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="@color/red_main"
+                    app:boxStrokeWidth="0dp"
+                    app:boxBackgroundColor="#F0F1F5">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/cityEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Kota"
+                        android:fontFamily="@font/jakartasans"
+                        android:textColor="#2C3E50"
+                        android:textSize="16sp"
+                        android:minHeight="65dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingBottom="0dp"
+                        android:paddingVertical="5dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Provinsi -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeColor="@color/red_main"
+                    app:boxBackgroundColor="#F0F1F5">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/provinceEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Provinsi"
+                        android:fontFamily="@font/jakartasans"
+                        android:textColor="#2C3E50"
+                        android:textSize="16sp"
+                        android:minHeight="65dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingBottom="0dp"
+                        android:paddingVertical="5dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <!-- Nomor Telepon -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                app:boxBackgroundMode="filled"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="@color/red_main"
+                app:boxStrokeWidth="0dp"
+                app:boxBackgroundColor="#F0F1F5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor Telepon"
+                    android:fontFamily="@font/jakartasans"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:minHeight="65dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="0dp"
+                    android:paddingVertical="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Kode Pos -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                app:boxBackgroundMode="filled"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxStrokeColor="@color/red_main"
+                app:boxStrokeWidth="0dp"
+                app:boxBackgroundColor="#F0F1F5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/postalCodeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kode Pos"
+                    android:fontFamily="@font/jakartasans"
+                    android:textColor="#2C3E50"
+                    android:textSize="16sp"
+                    android:minHeight="65dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="0dp"
+                    android:paddingVertical="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="SIMPAN"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#03A9F4"
+                android:fontFamily="@font/jakartasans"
+                app:cornerRadius="7dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Logout"
+                android:textAllCaps="true"
+                android:textColor="@color/red_main"
+                android:backgroundTint="#FFFFFF"
+                android:strokeColor="@color/red_main"
+                android:strokeWidth="2"
+                android:fontFamily="@font/jakartasans"
+                app:cornerRadius="7dp"
+                android:textStyle="bold"
+                android:elevation="20dp"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

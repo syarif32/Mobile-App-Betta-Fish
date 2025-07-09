@@ -1,0 +1,34 @@
+Array
+(
+    [id_pelanggan] => 29
+    [tgl_order] => 2025-06-13
+    [subtotal] => 345000
+    [ongkir] => 25000
+    [total_bayar] => 370000
+    [kurir] => jne
+    [service] => REG
+    [asal] => 78
+    [tujuan] => 129
+    [alamat_kirim] => Jl. Gajah Raya No. 123, Semarang
+    [telp_kirim] => 089675431245
+    [produk] => Array
+        (
+            [0] => Array
+                (
+                    [kode_product] => CI001
+                    [harga_satuan] => 150000
+                    [qty] => 1
+                    [bayar] => 150000
+                )
+
+            [1] => Array
+                (
+                    [kode_product] => CI002
+                    [harga_satuan] => 100000
+                    [qty] => 2
+                    [bayar] => 200000
+                )
+
+        )
+
+)

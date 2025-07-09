@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_blue"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="48dp"
+            android:paddingBottom="24dp"
+            android:paddingHorizontal="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Checkout Pesanan"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Langkah terakhir untuk mendapatkan ikan impian Anda!"
+                android:textSize="16sp"
+                android:textColor="#00E0E0E0"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="-48dp"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="10dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Pengguna"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/txtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Username: user123"
+                    android:textSize="15sp"
+                    android:textColor="#424242"
+                    android:drawableStart="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email: user@example.com"
+                    android:textSize="15sp"
+                    android:textColor="#424242"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="24dp" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ringkasan Pesanan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="12dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerKeranjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="24dp"
+                    tools:listitem="@layout/cart_list" /> <View style="@style/DividerStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Pengiriman"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="12dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    <Spinner
+                        android:id="@+id/spinnerProvinsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:paddingHorizontal="12dp"
+                        android:hint="Provinsi Tujuan"
+                        android:gravity="center_vertical"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    <Spinner
+                        android:id="@+id/spinnerKota"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:paddingHorizontal="12dp"
+                        android:hint="Kota Tujuan"
+                        android:gravity="center_vertical"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    <Spinner
+                        android:id="@+id/spinnerKurir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:paddingHorizontal="12dp"
+                        android:hint="Layanan Kurir"
+                        android:gravity="center_vertical"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="16dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#2196F3"
+                        app:hintTextColor="#2196F3"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edittelptujuan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="No. HP Penerima"
+                            android:inputType="phone"
+                            android:minLines="1"
+                            android:maxLines="1"
+                            android:textColor="#2C3E50"
+                            android:textSize="16sp"
+                            android:drawableStart="@drawable/baseline_local_phone_24"
+                            android:drawablePadding="12dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#2196F3"
+                        app:hintTextColor="#2196F3"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editKodePos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Kode Pos"
+                            android:inputType="number"
+                            android:minLines="1"
+                            android:maxLines="1"
+                            android:textColor="#2C3E50"
+                            android:textSize="16sp"
+                            android:drawableStart="@drawable/baseline_local_post_office_24"
+                            android:drawablePadding="12dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxStrokeColor="#2196F3"
+                    app:hintTextColor="#2196F3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editAlamatLengkap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Alamat Lengkap (Jl, No. Rumah, RT/RW, Kelurahan, Kecamatan)"
+                        android:minLines="3"
+                        android:gravity="top|start"
+                        android:inputType="textMultiLine"
+                        android:textColor="#2C3E50"
+                        android:textSize="16sp"
+                        android:drawableStart="@drawable/baseline_home_24"
+                        android:drawablePadding="12dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <View style="@style/DividerStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ringkasan Pembayaran"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="12dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="24dp">
+
+                    <LinearLayout style="@style/SummaryRowStyle">
+                        <TextView style="@style/SummaryLabelStyle" android:text="Ongkos Kirim:"/>
+                        <TextView android:id="@+id/txtOngkir" style="@style/SummaryValueStyle" android:text="Rp0"/>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/SummaryRowStyle">
+                        <TextView style="@style/SummaryLabelStyle" android:text="Total Produk:"/>
+                        <TextView android:id="@+id/txtTotalProduk" style="@style/SummaryValueStyle" android:text="Rp0"/>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/SummaryRowStyle">
+                        <TextView style="@style/SummaryLabelStyle" android:text="Total Pembayaran:"/>
+                        <TextView android:id="@+id/txtTotalBayar" style="@style/SummaryValueStyle.Highlight" android:text="Rp0"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/DividerStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih Metode Pembayaran"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="24dp"
+                    android:paddingHorizontal="8dp">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupPembayaran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioCOD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="COD (Cash On Delivery)"
+                            android:textColor="#212121"
+                            android:buttonTint="#2196F3"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioBNI"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Transfer Bank BNI"
+                            android:textColor="#212121"
+                            android:buttonTint="#2196F3"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioBCA"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Transfer Bank BCA"
+                            android:textColor="#212121"
+                            android:buttonTint="#2196F3"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioBRI"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Transfer Bank BRI"
+                            android:textColor="#212121"
+                            android:buttonTint="#2196F3"
+                            android:paddingVertical="8dp"/>
+
+                    </RadioGroup>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"
+                        android:layout_marginTop="16dp"
+                        android:paddingVertical="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/layoutPaymentIcons"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/imgCOD"
+                                android:layout_width="80dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/cashonde"
+                                android:scaleType="fitCenter"
+                                android:contentDescription="Cash On Delivery"
+
+                                android:padding="8dp"
+                                android:layout_marginEnd="12dp"/>
+
+                            <ImageView
+                                android:id="@+id/imgBNI"
+                                android:layout_width="80dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/bni"
+                                android:scaleType="fitCenter"
+                                android:contentDescription="Bank BNI"
+                                android:padding="8dp"
+                                android:layout_marginEnd="12dp"/>
+
+                            <ImageView
+                                android:id="@+id/imgBCA"
+                                android:layout_width="80dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/bca"
+                                android:scaleType="fitCenter"
+                                android:contentDescription="Bank BCA"
+
+                                android:padding="8dp"
+                                android:layout_marginEnd="12dp"/>
+
+                            <ImageView
+                                android:id="@+id/imgBRI"
+                                android:layout_width="80dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/bri"
+                                android:scaleType="fitCenter"
+                                android:contentDescription="Bank BRI"
+
+                                android:padding="8dp"/>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCheckout"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:text="SELESAIKAN PEMBAYARAN"
+                    android:backgroundTint="#4CAF50"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="12dp"
+                    android:elevation="4dp"
+                    android:layout_marginTop="16dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

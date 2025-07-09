@@ -1,0 +1,592 @@
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_produk": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_produk": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+
+
+
+
+{
+  "user_id": 1,
+  "product_id": 2,
+  "quantity": 3
+}
+
+
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_produk": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_produk": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+
+
+
+
+{
+  "user_id": 1,
+  "product_id": 2,
+  "quantity": 3
+}
+
+
+
+
+
+
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_produk": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_produk": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "jumlah": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "jumlah": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+{
+    "id_pelanggan": 29,
+    "total_harga": 345000,
+    "ongkir": 25000,
+    "kurir": "JNE",
+    "service": "REG",
+    "asal": "Jakarta",
+    "tujuan": "Semarang",
+    "alamat_pengiriman": "Gajah raya, Semarang, Jawa Tengah",
+    "produk": [
+        {
+            "kode_product": "CI001",
+            "qty": 1,
+            "harga_satuan": 150000
+        },
+        {
+            "kode_product": "CI002",
+            "qty": 2,
+            "harga_satuan": 100000
+        }
+    ]
+}
+
+
+
+
+
+{
+  "user_id": 1,
+  "product_id": 2,
+  "quantity": 3
+}
+
+
+
+
+{
+  "id_pelanggan": "1",
+  "total_harga": 200000,
+  "ongkir": 10000,
+  "kurir": "jne",
+  "service": "REG",
+  "asal": "501",
+  "tujuan": "114",
+  "alamat_pengiriman": "Jl. Merdeka No. 123",
+  "produk": [
+    {
+      "kode_product": "CI002",
+      "qty": 2,
+      "harga_satuan": 100000
+    }
+  ]
+}
+
+
+{
+  "id_pelanggan": "1",
+  "total_harga": 200000,
+  "ongkir": 10000,
+  "kurir": "jne",
+  "service": "REG",
+  "asal": "501",
+  "tujuan": "114",
+  "alamat_pengiriman": "Jl. Merdeka No. 123",
+  "produk": [
+    {
+      "kode_product": "CI002",
+      "qty": 2,
+      "harga_satuan": 100000
+    }
+  ]
+}
+
+
+{"asal":"78","tgl_order":"2025-06-13","ongkir":65000.0,"produk":[{"kode_product":"CI002","harga_satuan":100000.0,"qty":1,"bayar":100000.0},{"kode_product":"CI001","harga_satuan":150000.0,"qty":1,"bayar":150000.0}],"subtotal":250000.0,"service":"REG","kurir":"jne","alamat_kirim":"xfgy","id_pelanggan":"id","total_bayar":315000.0,"tujuan":"37"}
+
+{"asal":"78","tgl_order":"2025-06-13","ongkir":65000.0,"produk":[{"kode_product":"CI002","harga_satuan":100000.0,"qty":1,"bayar":100000.0},{"kode_product":"CI001","harga_satuan":150000.0,"qty":1,"bayar":150000.0}],"subtotal":250000.0,"service":"REG","kurir":"jne","alamat_kirim":"xfgy","id_pelanggan":"id","total_bayar":315000.0,"tujuan":"37"}
+
+
+
+{
+  "id_pelanggan": 29,
+  "tgl_order": "2025-06-13",
+  "subtotal": 300000,
+  "ongkir": 25000,
+  "total_bayar": 325000,
+  "kurir": "JNE",
+  "service": "REG",
+  "asal": "Jakarta",
+  "tujuan": "Semarang",
+  "alamat_kirim": "Jl. Gajah Raya",
+  "telp_kirim": "08123456789",
+  "kota": "Semarang",
+  "provinsi": "Jawa Tengah",
+  "lama_kirim": "2-3 Hari",
+  "kodepos": "50144",
+  "metodebayar": 1,
+  "bukti_bayar": null,
+  "status": 0,
+  "detail_order": [
+    {
+      "kode_product": "CI001",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    },
+    {
+      "kode_product": "CI002",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    }
+  ]
+}
+
+
+{
+  "id_pelanggan": 29,
+  "tgl_order": "2025-06-13",
+  "subtotal": 300000,
+  "ongkir": 25000,
+  "total_bayar": 325000,
+  "kurir": "JNE",
+  "service": "REG",
+  "asal": "Jakarta",
+  "tujuan": "Semarang",
+  "alamat_kirim": "Jl. Gajah Raya",
+  "telp_kirim": "08123456789",
+  "kota": "Semarang",
+  "provinsi": "Jawa Tengah",
+  "lama_kirim": "2-3 Hari",
+  "kodepos": "50144",
+  "metodebayar": 1,
+  "bukti_bayar": null,
+  "status": 0,
+  "detail_order": [
+    {
+      "kode_product": "CI001",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "total_harga": 150000
+    },
+    {
+      "kode_product": "CI002",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "total_harga": 150000
+    }
+  ]
+}
+
+
+{
+  "id_pelanggan": 29,
+  "tgl_order": "2025-06-13",
+  "subtotal": 300000,
+  "ongkir": 25000,
+  "harga": 325000,
+  "kurir": "JNE",
+  "service": "REG",
+  "asal": "Jakarta",
+  "tujuan": "Semarang",
+  "alamat_kirim": "Jl. Gajah Raya",
+  "telp_kirim": "08123456789",
+  "kota": "Semarang",
+  "provinsi": "Jawa Tengah",
+  "lama_kirim": "2-3 Hari",
+  "kodepos": "50144",
+  "metodebayar": 1,
+  "bukti_bayar": null,
+  "status": 0,
+  "detail_order": [
+    {
+      "kode_product": "CI001",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    },
+    {
+      "kode_product": "CI002",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    }
+  ]
+}
+
+
+
+
+{"asal":"78","tgl_order":"2025-06-13","ongkir":65000.0,"produk":[{"kode_product":"CI002","harga_satuan":100000.0,"qty":1,"bayar":100000.0},{"kode_product":"CI001","harga_satuan":150000.0,"qty":1,"bayar":150000.0}],"subtotal":250000.0,"service":"REG","kurir":"jne","alamat_kirim":"xfgy","id_pelanggan":"id","total_bayar":315000.0,"tujuan":"37"}
+
+{
+  "id_pelanggan": "29",
+  "tgl_order": "2025-06-13",
+  "subtotal": 345000,
+  "ongkir": 25000,
+  "total_bayar": 370000,
+  "kurir": "JNE",
+  "service": "REG",
+  "asal": "78",
+  "tujuan": "129",
+  "alamat_kirim": "Jl. Contoh No. 123",
+  "produk": [
+    {
+      "kode_product": "CI001",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    }
+  ]
+}
+
+{
+  "id_pelanggan": "29",
+  "tgl_order": "2025-06-13",
+  "subtotal": 345000,
+  "ongkir": 25000,
+  "total_bayar": 370000,
+  "kurir": "jne",
+  "service": "REG",
+  "asal": "78",
+  "tujuan": "129",
+  "alamat_kirim": "Jl. Gajah Raya No. 123, Semarang",
+  "telp_kirim": "089675431245",
+  "produk": [
+    {
+      "kode_product": "CI001",
+      "harga_satuan": 150000,
+      "qty": 1,
+      "bayar": 150000
+    },
+    {
+      "kode_product": "CI002",
+      "harga_satuan": 100000,
+      "qty": 2,
+      "bayar": 200000
+    }
+  ]
+}
+

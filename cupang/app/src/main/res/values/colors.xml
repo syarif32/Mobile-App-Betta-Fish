@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_main">#FF3700B3</color>
+    <color name="blue_500">#2196F3</color> <color name="blue_700">#1976D2</color> <color name="blue_900">#0D47A1</color> <color name="green_500">#4CAF50</color> <color name="green_700">#388E3C</color>
+    <color name="white_alpha_80">#CCFFFFFF</color> <color name="grey_50">#FAFAFA</color> <color name="grey_100">#F5F5F5</color> <color name="grey_200">#EEEEEE</color> <color name="grey_300">#E0E0E0</color> <color name="grey_400">#BDBDBD</color> <color name="grey_500">#9E9E9E</color> <color name="grey_600">#757575</color> <color name="grey_700">#616161</color> <color name="grey_800">#424242</color> <color name="grey_900">#212121</color> <color name="text_primary">@color/grey_900</color>
+    <color name="text_secondary">@color/grey_600</color>
+    <color name="text_disabled">@color/grey_400</color>
+
+    <color name="red_error">#D32F2F</color> <color name="orange_warning">#F57C00</color> <color name="dark_blue_700">#1976D2</color> <color name="dark_blue_800">#1565C0</color> <color name="green_600">#4CAF50</color>
+
+    <color name="gradient_blue_start">#42A5F5</color>
+    <color name="gradient_blue_end">#1976D2</color>
+    <color name="dark_blue_text">#1976D2</color> <color name="teal_price">#00897B</color>
+    <color name="green_stock">#4CAF50</color>
+    <color name="grey_text">#616161</color>
+    <color name="light_grey_divider">#E0E0E0</color>
+    <color name="darker_grey_text">#444444</color>
+    <color name="primary_button_blue">#1E88E5</color>
+    <color name="light_grey_views">#757575</color>
+    <color name="title_text_color">#212121</color>
+    <color name="yellow_confirmation">#FFC107</color> <color name="green_success">#4CAF50</color>         <color name="grey_status_default">#757575</color>
+    <color name="material_grey_100">#F5F5F5</color>
+    <color name="material_grey_700">#616161</color>
+    <color name="material_grey_900">#212121</color>
+    <color name="colorPrimary">#1976D2</color> <color name="colorPrimaryDark">#1565C0</color> <color name="colorAccent">#FF4081</color> ```
+</resources>

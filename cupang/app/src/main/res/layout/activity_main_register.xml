@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_blue_header"
+        android:paddingHorizontal="23dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="70dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:src="@drawable/lg"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="Logo Aplikasi"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buat Akun Baru"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar untuk menjelajahi koleksi Ikan Cupang terbaik kami "
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="#E0E0E0"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="0dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@android:color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="24dp"
+                android:paddingBottom="24dp"
+                android:paddingTop="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pengguna"
+                    android:textSize="15sp"
+                    android:textColor="#37474F"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="contoh_pengguna123"
+                    android:inputType="textPersonName"
+                    android:backgroundTint="#2196F3"
+                    android:textColor="@color/black"
+                    android:textColorHint="#9E9E9E"
+                    android:paddingBottom="12dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Email"
+                    android:textSize="15sp"
+                    android:textColor="#37474F"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="nama@email.com"
+                    android:inputType="textEmailAddress"
+                    android:backgroundTint="#2196F3"
+                    android:textColor="@color/black"
+                    android:textColorHint="#9E9E9E"
+                    android:paddingBottom="12dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kata Sandi"
+                    android:textSize="15sp"
+                    android:textColor="#37474F"
+                    android:layout_marginBottom="8dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    app:hintEnabled="false"
+                    app:boxBackgroundMode="none"
+                    android:layout_marginBottom="24dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="silahkan isi kata sandi anda"
+                        android:inputType="textPassword"
+                        android:backgroundTint="#2196F3"
+                        android:textColor="@color/black"
+                        android:textColorHint="#9E9E9E"
+                        android:paddingBottom="12dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:text="DAFTAR"
+                    android:backgroundTint="#2196F3"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp"
+                    android:elevation="4dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sudah punya akun? Masuk Sekarang"
+                    android:textSize="15sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+[25-Jun-2025 00:04:31 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dtip1888/public_html/allend.site/API_Product/get_produk.php:10
+Stack trace:
+#0 /home/dtip1888/public_html/allend.site/API_Product/get_produk.php(10): mysqli->__construct()
+#1 {main}
+  thrown in /home/dtip1888/public_html/allend.site/API_Product/get_produk.php on line 10
+[25-Jun-2025 00:20:34 Asia/Jakarta] PHP Warning:  Undefined array key "province" in /home/dtip1888/public_html/allend.site/API_Product/get_kota.php on line 2

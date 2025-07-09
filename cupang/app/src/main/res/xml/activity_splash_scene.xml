@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetStart="@+id/start"
+        app:constraintSetEnd="@+id/circle_formed"
+        app:autoTransition="animateToEnd"
+        app:duration="1200" />
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/white_bg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" >
+            <CustomAttribute
+                app:attributeName="cardCornerRadius"
+                app:customDimension="0dp" />
+        </Constraint>
+
+        <Constraint android:id="@+id/logoImage" android:alpha="0" />
+        <Constraint android:id="@+id/tvWelcome" android:alpha="0" />
+        <Constraint android:id="@+id/tvStoreName" android:alpha="0" />
+        <Constraint android:id="@+id/Description" android:alpha="0" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/circle_formed">
+        <Constraint
+            android:id="@+id/white_bg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:translationY="-30dp">
+            <CustomAttribute
+                app:attributeName="cardCornerRadius"
+                app:customDimension="100dp" />
+        </Constraint>
+
+        <Constraint android:id="@+id/logoImage" android:alpha="0" />
+        <Constraint android:id="@+id/tvWelcome" android:alpha="0" />
+        <Constraint android:id="@+id/tvStoreName" android:alpha="0" />
+        <Constraint android:id="@+id/Description" android:alpha="0" />
+    </ConstraintSet>
+
+</MotionScene>

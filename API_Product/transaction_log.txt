@@ -1,0 +1,159 @@
+[2025-06-13 12:15:29] {"id_pelanggan":29,"tgl_order":"2025-06-15","subtotal":345000,"ongkir":25000,"total_bayar":370000,"kurir":"jne","service":"REG","asal":"78","tujuan":"129","alamat_kirim":"Jl. Gajah Raya No. 123, Semarang","telp_kirim":"089675431245","produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1},{"kode_product":"CI002","harga_satuan":100000,"qty":2}]}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"8","total_bayar":370000}
+
+[2025-06-13 12:16:10] {"id_pelanggan":29,"tgl_order":"2025-06-15","subtotal":345000,"ongkir":25000,"total_bayar":370000,"kurir":"jne","service":"REG","asal":"78","tujuan":"129","alamat_kirim":"Jl. Gajah Raya No. 123, Semarang","telp_kirim":"089675431245","produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1},{"kode_product":"CI002","harga_satuan":100000,"qty":2}]}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"9","total_bayar":370000}
+
+[2025-06-13 12:19:41] {"asal":"78","tgl_order":"2025-06-13","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1},{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":250000,"service":"REG","kurir":"tiki","alamat_kirim":"xdtty","id_pelanggan":"id","total_bayar":250000,"tujuan":"50","telp_kirim":""}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"10","total_bayar":250000}
+
+[2025-06-13 12:24:35] {"asal":"78","tgl_order":"2025-06-13","ongkir":65000,"produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kurir":"jne","alamat_kirim":"uda rtyhhhgdertgggg","id_pelanggan":"id","total_bayar":240000,"tujuan":"210","telp_kirim":""}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"11","total_bayar":240000}
+
+[2025-06-13 12:36:34] {"asal":"78","tgl_order":"2025-06-13","ongkir":70000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":3},{"kode_product":"CI001","harga_satuan":150000,"qty":2}],"subtotal":600000,"service":"REG","kurir":"jne","alamat_kirim":"wetvvhh","id_pelanggan":"id","total_bayar":670000,"tujuan":"62","telp_kirim":""}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"12","total_bayar":670000}
+
+[2025-06-14 04:34:18] {"asal":"78","tgl_order":"2025-06-14","ongkir":42000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":3}],"subtotal":300000,"service":"REG","kurir":"tiki","alamat_kirim":"sdsiiadasjdsid","id_pelanggan":"id","total_bayar":342000,"tujuan":"50","telp_kirim":""}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"13","total_bayar":342000}
+
+[2025-06-14 04:36:52] {"asal":"78","tgl_order":"2025-06-14","ongkir":40000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"jne","alamat_kirim":"fsrwcfjjv","id_pelanggan":"id","total_bayar":140000,"tujuan":"151","telp_kirim":""}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"14","total_bayar":140000}
+
+[2025-06-15 17:04:45] {"asal":"78","tgl_order":"2025-06-15","ongkir":38000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":3}],"subtotal":300000,"service":"REG","kurir":"tiki","alamat_kirim":"nakdiadichad","id_pelanggan":"id","total_bayar":338000,"tujuan":"62","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"15","total_bayar":338000}
+
+[2025-06-15 17:07:37] {"asal":"78","tgl_order":"2025-06-15","ongkir":30000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"asuhiuas","id_pelanggan":"id","total_bayar":130000,"tujuan":"151","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"16","total_bayar":130000}
+
+[2025-06-17 08:26:07] {"asal":"78","tgl_order":"2025-06-17","ongkir":37000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":4}],"subtotal":600000,"service":"REG","kurir":"tiki","alamat_kirim":"USHDIADKLAJDKDYGDY","id_pelanggan":"id","total_bayar":637000,"tujuan":"27","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"17","total_bayar":637000}
+
+[2025-06-17 09:02:11] {"asal":"78","tgl_order":"2025-06-17","ongkir":38000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":2}],"subtotal":300000,"service":"REG","kurir":"tiki","alamat_kirim":"NSDAYD","id_pelanggan":"id","total_bayar":338000,"tujuan":"62","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"18","total_bayar":338000}
+
+[2025-06-17 09:13:55] {"asal":"78","tgl_order":"2025-06-17","ongkir":0,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"tiki","alamat_kirim":"ashajsl","id_pelanggan":"id","total_bayar":150000,"tujuan":"17","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"19","total_bayar":150000}
+
+[2025-06-17 09:55:38] {"asal":"78","tgl_order":"2025-06-17","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"jfr","id_pelanggan":"29","total_bayar":100000,"tujuan":"197","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"20","total_bayar":100000}
+
+[2025-06-17 17:08:32] {"asal":"78","tgl_order":"2025-06-17","ongkir":0,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"tiki","alamat_kirim":"dhtdytt","id_pelanggan":"29","total_bayar":150000,"tujuan":"77","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"21","total_bayar":150000}
+
+[2025-06-17 20:21:23] {"id_order":9}
+Response: {"status":"gagal","message":"Field id_pelanggan is required"}
+
+[2025-06-18 04:21:28] {"asal":"78","tgl_order":"2025-06-18","ongkir":30000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":3}],"subtotal":450000,"service":"REG","kurir":"tiki","alamat_kirim":"fses","id_pelanggan":"29","total_bayar":480000,"tujuan":"151","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"22","total_bayar":480000}
+
+[2025-06-18 05:10:16] {"asal":"78","tgl_order":"2025-06-18","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":2}],"subtotal":200000,"service":"REG","kurir":"tiki","alamat_kirim":"fry\n","id_pelanggan":"29","total_bayar":200000,"tujuan":"77","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"23","total_bayar":200000}
+
+[2025-06-18 06:22:52] {"asal":"78","tgl_order":"2025-06-18","ongkir":24000,"produk":[{"kode_product":"CL010","harga_satuan":35000,"qty":1}],"subtotal":35000,"service":"REG","kurir":"tiki","alamat_kirim":"f","id_pelanggan":"29","total_bayar":59000,"tujuan":"39","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"24","total_bayar":59000}
+
+[2025-06-18 20:56:34] {"asal":"78","tgl_order":"2025-06-19","ongkir":30000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"tiki","alamat_kirim":"df","id_pelanggan":"29","total_bayar":180000,"tujuan":"155","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"25","total_bayar":180000}
+
+[2025-06-19 11:44:44] {"asal":"78","tgl_order":"2025-06-19","ongkir":95000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"jne","alamat_kirim":"jl pekunden","id_pelanggan":"29","total_bayar":245000,"tujuan":"128","telp_kirim":"eko@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"26","total_bayar":245000}
+
+[2025-06-19 17:23:01] {"asal":"78","tgl_order":"2025-06-19","ongkir":30000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"ttfv","id_pelanggan":"39","total_bayar":130000,"tujuan":"151","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"27","total_bayar":130000}
+
+[2025-06-19 17:49:03] {"asal":"78","tgl_order":"2025-06-19","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":2},{"kode_product":"CL007","harga_satuan":80000,"qty":1},{"kode_product":"CL006","harga_satuan":40000,"qty":1},{"kode_product":"CL008","harga_satuan":55000,"qty":1}],"subtotal":375000,"service":"REG","kurir":"tiki","alamat_kirim":"rdrdd","id_pelanggan":"39","total_bayar":375000,"tujuan":"17","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"28","total_bayar":375000}
+
+[2025-06-20 13:54:55] {"asal":"78","tgl_order":"2025-06-20","ongkir":0,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"tiki","alamat_kirim":"ffy","id_pelanggan":"39","total_bayar":150000,"tujuan":"77","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"29","total_bayar":150000}
+
+[2025-06-20 13:56:08] {"asal":"78","tgl_order":"2025-06-20","ongkir":56000,"produk":[{"kode_product":"CI007","harga_satuan":125000,"qty":1},{"kode_product":"CL001","harga_satuan":55000,"qty":1}],"subtotal":180000,"service":"REG","kurir":"tiki","alamat_kirim":"yyyyyy_yyyyyyy","id_pelanggan":"39","total_bayar":236000,"tujuan":"48","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"30","total_bayar":236000}
+
+[2025-06-21 20:43:32] {"asal":"78","tgl_order":"2025-06-22","ongkir":85000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1},{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":250000,"service":"REG","kurir":"jne","alamat_kirim":"jalan bintoro kecil 9 nomor 20 blok A Brebes Jawa Tengah Indonesia ","id_pelanggan":"39","total_bayar":335000,"tujuan":"92","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"31","total_bayar":335000}
+
+[2025-06-21 20:45:15] {"asal":"78","tgl_order":"2025-06-22","ongkir":42000,"produk":[{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":150000,"service":"REG","kurir":"tiki","alamat_kirim":"Yhsjskxkjd","id_pelanggan":"39","total_bayar":192000,"tujuan":"461","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"32","total_bayar":192000}
+
+[2025-06-21 20:48:03] {"asal":"78","tgl_order":"2025-06-22","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"z","id_pelanggan":"39","total_bayar":100000,"tujuan":"77","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"33","total_bayar":100000}
+
+[2025-06-22 17:14:49] {"asal":"78","tgl_order":"2025-06-22","ongkir":55000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1},{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":250000,"service":"REG","kurir":"jne","alamat_kirim":"cghv","id_pelanggan":"39","total_bayar":305000,"tujuan":"39","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"34","total_bayar":305000}
+
+[2025-06-22 18:23:19] {"asal":"78","tgl_order":"2025-06-22","ongkir":22000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1},{"kode_product":"CI001","harga_satuan":150000,"qty":1}],"subtotal":250000,"service":"REG","kurir":"tiki","alamat_kirim":"jalan mutiara Timur Tengah Selatan Utara ","id_pelanggan":"41","total_bayar":272000,"tujuan":"31","telp_kirim":"feb@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"35","total_bayar":272000}
+
+[2025-06-22 18:46:53] {"asal":"78","tgl_order":"2025-06-22","ongkir":38000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":2},{"kode_product":"CI001","harga_satuan":150000,"qty":1},{"kode_product":"CI004","harga_satuan":75000,"qty":1},{"kode_product":"CI006","harga_satuan":120000,"qty":3},{"kode_product":"CI005","harga_satuan":90000,"qty":1}],"subtotal":875000,"service":"REG","kurir":"tiki","alamat_kirim":"jalan plewan hshkqns","id_pelanggan":"41","total_bayar":913000,"tujuan":"62","telp_kirim":"feb@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"36","total_bayar":913000}
+
+[2025-06-22 20:15:08] {"asal":"78","tgl_order":"2025-06-23","ongkir":24000,"produk":[{"kode_product":"CI009","harga_satuan":350000,"qty":1},{"kode_product":"CI008","harga_satuan":250000,"qty":1}],"subtotal":600000,"service":"REG","kurir":"tiki","alamat_kirim":"fghbv","id_pelanggan":"41","total_bayar":624000,"tujuan":"39","telp_kirim":"feb@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"37","total_bayar":624000}
+
+[2025-06-23 03:19:36] {"asal":"78","tgl_order":"2025-06-23","ongkir":84000,"produk":[{"kode_product":"CI008","harga_satuan":250000,"qty":6},{"kode_product":"CI009","harga_satuan":350000,"qty":3}],"subtotal":2550000,"service":"REG","kurir":"tiki","alamat_kirim":"jln plewan 3","id_pelanggan":"41","total_bayar":2634000,"tujuan":"130","telp_kirim":"feb@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"38","total_bayar":2634000}
+
+[2025-06-23 03:57:19] {"asal":"78","tgl_order":"2025-06-23","ongkir":65000,"produk":[{"kode_product":"CI009","harga_satuan":350000,"qty":1},{"kode_product":"CI008","harga_satuan":250000,"qty":1}],"subtotal":600000,"service":"REG","kurir":"jne","alamat_kirim":"pekunden tengah ","id_pelanggan":"41","total_bayar":665000,"tujuan":"37","telp_kirim":"feb@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"39","total_bayar":665000}
+
+[2025-06-24 17:17:19] {"asal":"78","tgl_order":"2025-06-24","ongkir":31000,"produk":[{"kode_product":"CI009","harga_satuan":350000,"qty":7},{"kode_product":"CI012","harga_satuan":25000,"qty":1},{"kode_product":"CI008","harga_satuan":250000,"qty":1}],"subtotal":2725000,"service":"REG","kurir":"tiki","alamat_kirim":"ffgg","id_pelanggan":"42","total_bayar":2756000,"tujuan":"106","telp_kirim":"majiid@gmail.com"}
+Response: {"status":"gagal","message":"Stok produk 'CI009' tidak mencukupi. Sisa stok: 6. Jumlah diminta: 7."}
+
+[2025-06-25 10:04:32] {"asal":"78","tgl_order":"2025-06-25","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"cvjj","id_pelanggan":"39","total_bayar":100000,"tujuan":"361","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"37","total_bayar":100000}
+
+[2025-06-25 10:37:37] {"asal":"78","tgl_order":"2025-06-25","ongkir":12000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"jalan plewan 3 no 90","id_pelanggan":"39","total_bayar":112000,"tujuan":"154","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"38","total_bayar":112000}
+
+[2025-06-25 22:56:27] {"asal":"78","tgl_order":"2025-06-25","ongkir":0,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"tiki","alamat_kirim":"jajahshdhdnsj","id_pelanggan":"39","total_bayar":100000,"tujuan":"17","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"39","total_bayar":100000}
+
+[2025-06-25 22:58:13] {"asal":"78","tgl_order":"2025-06-25","ongkir":100000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kurir":"jne","alamat_kirim":"gaksklaldjbabjsososllsjsjsjskkaka","id_pelanggan":"39","total_bayar":200000,"tujuan":"64","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"40","total_bayar":200000}
+
+[2025-06-28 12:35:52] {"asal":"78","tgl_order":"2025-06-28","ongkir":55000,"produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1},{"kode_product":"CI003","harga_satuan":175000,"qty":1},{"kode_product":"CI006","harga_satuan":120000,"qty":1},{"kode_product":"CI007","harga_satuan":125000,"qty":1},{"kode_product":"CL003","harga_satuan":150000,"qty":1},{"kode_product":"CL004","harga_satuan":50000,"qty":1},{"kode_product":"CL007","harga_satuan":80000,"qty":1},{"kode_product":"CL012","harga_satuan":45000,"qty":1},{"kode_product":"CL011","harga_satuan":70000,"qty":1},{"kode_product":"CL013","harga_satuan":15000,"qty":1}],"subtotal":930000,"service":"REG","kurir":"jne","alamat_kirim":"jalan nakula Timur dalam setengah seperempat sepertiga lingkaran penuh","id_pelanggan":"39","total_bayar":985000,"tujuan":"39","telp_kirim":"y@gmail.com"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"41","total_bayar":985000}
+
+[2025-06-29 14:00:24] {"tgl_order":"2025-06-29","ongkir":55000,"kurir":"jne","id_pelanggan":"39","total_bayar":230000,"tujuan":"39","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"5824","alamat_kirim":"Jalan Wonosari Tengah Nomor 21 ","telp_kirim":"089657234"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"42","total_bayar":230000}
+
+[2025-06-29 15:05:24] {"tgl_order":"2025-06-29","ongkir":380000,"kurir":"jne","id_pelanggan":"39","total_bayar":555000,"tujuan":"77","metodebayar":0,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"8764","alamat_kirim":"jalan walisongo maksar Papua barat","telp_kirim":"09876482"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"43","total_bayar":555000}
+
+[2025-06-29 15:10:11] {"tgl_order":"2025-06-29","ongkir":40000,"kurir":"jne","id_pelanggan":"39","total_bayar":140000,"tujuan":"155","metodebayar":0,"asal":"78","produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kodepos":"3425","alamat_kirim":"jalan walisongo semarang","telp_kirim":"089657"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"44","total_bayar":140000}
+
+[2025-06-29 15:11:51] {"tgl_order":"2025-06-29","ongkir":380000,"kurir":"jne","id_pelanggan":"39","total_bayar":555000,"tujuan":"77","metodebayar":0,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"88","alamat_kirim":"zz","telp_kirim":"088"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"45","total_bayar":555000}
+
+[2025-06-29 15:12:14] {"tgl_order":"2025-06-29","ongkir":380000,"kurir":"jne","id_pelanggan":"39","total_bayar":555000,"tujuan":"77","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"6","alamat_kirim":"f","telp_kirim":"9"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"46","total_bayar":555000}
+
+[2025-06-29 15:21:28] {"tgl_order":"2025-06-29","ongkir":30000,"kurir":"tiki","id_pelanggan":"39","total_bayar":205000,"tujuan":"151","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"885","alamat_kirim":"cvcg","telp_kirim":"0895"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"47","total_bayar":205000}
+
+[2025-06-29 19:38:38] {"tgl_order":"2025-06-29","ongkir":100000,"kurir":"jne","id_pelanggan":"39","total_bayar":375000,"tujuan":"471","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1},{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":275000,"service":"REG","kodepos":"8965","alamat_kirim":"Jalan walisongo 9 tambak aji ngaliyan","telp_kirim":"089657324"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"48","total_bayar":375000}
+
+[2025-06-30 23:32:24] {"tgl_order":"2025-06-30","ongkir":55000,"kurir":"jne","id_pelanggan":"29","total_bayar":155000,"tujuan":"501","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":1}],"subtotal":100000,"service":"REG","kodepos":"08965","alamat_kirim":"cdyfdty","telp_kirim":"08965"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"49","total_bayar":155000}
+
+[2025-07-02 19:42:59] {"tgl_order":"2025-07-02","ongkir":0,"kurir":"tiki","id_pelanggan":"29","total_bayar":175000,"tujuan":"17","metodebayar":0,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"55","alamat_kirim":"tedgg","telp_kirim":"855"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"50","total_bayar":175000}
+
+[2025-07-03 00:46:53] {"tgl_order":"2025-07-03","ongkir":65000,"kurir":"jne","id_pelanggan":"39","total_bayar":240000,"tujuan":"210","metodebayar":1,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"8","alamat_kirim":"f","telp_kirim":"88"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"51","total_bayar":240000}
+
+[2025-07-05 03:10:36] {"tgl_order":"2025-07-05","ongkir":38000,"kurir":"jne","id_pelanggan":"39","total_bayar":548000,"tujuan":"62","metodebayar":3,"asal":"78","produk":[{"kode_product":"CI002","harga_satuan":100000,"qty":3},{"kode_product":"CI005","harga_satuan":90000,"qty":1},{"kode_product":"CI006","harga_satuan":120000,"qty":1}],"subtotal":510000,"service":"REG","kodepos":"5","alamat_kirim":"f","telp_kirim":"0"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"52","total_bayar":548000}
+
+[2025-07-06 09:32:15] {"tgl_order":"2025-07-06","ongkir":40000,"kurir":"jne","id_pelanggan":"39","total_bayar":215000,"tujuan":"151","metodebayar":2,"asal":"78","produk":[{"kode_product":"CI003","harga_satuan":175000,"qty":1}],"subtotal":175000,"service":"REG","kodepos":"0895","alamat_kirim":"muhammdjajbs","telp_kirim":"089654"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"53","total_bayar":215000}
+
+[2025-07-06 14:21:15] {"tgl_order":"2025-07-06","ongkir":90000,"kurir":"jne","id_pelanggan":"39","total_bayar":205000,"tujuan":"49","metodebayar":1,"asal":"78","produk":[{"kode_product":"CL009","harga_satuan":45000,"qty":1},{"kode_product":"CL011","harga_satuan":70000,"qty":1}],"subtotal":115000,"service":"REG","kodepos":"8566","alamat_kirim":"batang Selatan ","telp_kirim":"0896"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"54","total_bayar":205000}
+
+[2025-07-06 14:21:54] {"tgl_order":"2025-07-06","ongkir":24000,"kurir":"tiki","id_pelanggan":"39","total_bayar":59000,"tujuan":"419","metodebayar":0,"asal":"78","produk":[{"kode_product":"CL010","harga_satuan":35000,"qty":1}],"subtotal":35000,"service":"REG","kodepos":"055","alamat_kirim":"ccg","telp_kirim":"0895"}
+Response: {"status":"sukses","message":"Order berhasil dibuat","id_order":"55","total_bayar":59000}
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laut"
+    android:paddingStart="48dp"
+    android:paddingEnd="48dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/lg"
+        app:tint="@color/white"
+        android:layout_gravity="center"
+
+        android:contentDescription="Logo Aplikasi Ikan Cupang"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pusat koleksi ikan cupang yang berkualitas "
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salurkan hobimu di betta fish "
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Masuk"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Daftar Akun Baru"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan Tanpa Akun"
+        android:background="@android:color/transparent"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:minHeight="0dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>
